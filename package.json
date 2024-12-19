@@ -1,7 +1,12 @@
 {
-  "name": "animated-layout",
+  "name": "view-transitions",
   "version": "0.1.0",
   "private": true,
+  "description": "Nothing serious, experimenting with Next.js transitions",
+  "author": {
+    "name": "Domen Urh"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -9,9 +14,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bright": "^0.8.5",
+    "motion": "^11.15.0",
+    "next": "15.1.2",
+    "next-view-transitions": "^0.3.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.2"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "typescript": "^5",
