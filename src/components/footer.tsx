@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { getActiveClassName } from "../app/utilities/helper-functions";
+import { getActiveClassName } from "../utils/helper-functions";
 import { Link } from "next-view-transitions";
 
 export default function Footer() {
