@@ -19,7 +19,7 @@ export default function Home() {
           height={320}
         />
         <Code lang="py" title="barista.py" lineNumbers>
-          print("hello barista!")
+          print(&rdquo;hello barista!&rdquo;)
         </Code>
       </main>
       <Footer />

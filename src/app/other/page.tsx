@@ -18,7 +18,7 @@ export default function Home() {
           height={320}
         />
         <Code lang="py" title="phone.py" lineNumbers>
-          print("phones are cool")
+          print(&rdquo;phones are cool&rdquo;)
         </Code>
       </main>
       <Footer />
