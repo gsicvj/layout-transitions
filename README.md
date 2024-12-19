@@ -61,7 +61,7 @@ Visit [http://localhost:3000](http://localhost:3000) to view the app.
 ### Build for Production
 
 ```bash
-bun build
+bun run build
 ```
 
 ---
