@@ -94,8 +94,8 @@ Contributions, issues, and feature requests are welcome! Feel free to check out 
 
 ### 🌐 Connect with Me
 
-- GitHub: [Dominic's GitHub](https://github.com/gsicvj)
-- X: [@DominicDev](https://x.com/endomenurh)
+- GitHub: [gsicvj](https://github.com/gsicvj)
+- X: [@endomenurh](https://x.com/endomenurh)
 
 ---
 
