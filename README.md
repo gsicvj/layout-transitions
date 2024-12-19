@@ -1,4 +1,4 @@
-# 🚀 Next.js View Transitions Project
+# 🚀 Layout Transitions Project
 
 Mostly for showcasing the power of view transitions and dynamic animations in Next.js.
 
