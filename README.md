@@ -1,7 +1,6 @@
 # 🚀 Next.js View Transitions Project
 
-A modern Next.js application to create a seamless, performant, and visually stunning user experience.
-Mostly for for demonstration purposes, this project showcases the power of view transitions and dynamic animations in Next.js.
+Mostly for showcasing the power of view transitions and dynamic animations in Next.js.
 
 The project was bootstrapped with `bun create next-app`, and it took 3 seconds.
 I added all the packages, some free SVGs, and a few lines of code to make it look like this.
