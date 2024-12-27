@@ -43,16 +43,22 @@ jobs:
         run: bun install
       - name: Build with Next.js
         run: bun run build
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: next-artifact
+          path: out
 
   # Deployment job
   deploy:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - uses: benjlevesque/short-sha@v3.0
-        id: short-sha
+      - name: Download artifact
+        uses: actions/download-artifact@v4
         with:
-          length: 8
+          name: next-artifact
+          path: out
       - name: Deploy to BunnyCDN
         uses: ayeressian/bunnycdn-storage-deploy@v2.2.5
         with:
