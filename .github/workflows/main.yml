@@ -59,6 +59,10 @@ jobs:
         with:
           name: next-artifact
           path: out
+      - uses: benjlevesque/short-sha@v3.0
+        id: short-sha
+        with:
+          length: 8
       - name: Deploy to BunnyCDN
         uses: ayeressian/bunnycdn-storage-deploy@v2.2.5
         with:
