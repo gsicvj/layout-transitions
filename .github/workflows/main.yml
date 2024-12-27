@@ -52,7 +52,7 @@ jobs:
       - name: Deploy to BunnyCDN
         uses: ayeressian/bunnycdn-storage-deploy@v2.2.5
         with:
-          source: "dist"
+          source: "out"
           destination: "${{ secrets.STORAGE_DESTINATION }}${{ github.sha }}"
           storageZoneName: "${{ secrets.STORAGE_NAME }}"
           storagePassword: "${{ secrets.STORAGE_PASSWORD }}"
