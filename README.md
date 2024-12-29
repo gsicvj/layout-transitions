@@ -27,6 +27,11 @@ I added all the packages, some free SVGs, and a few lines of code to make it loo
 - Uses the latest Next.js app router structure, ensuring future compatibility.
 - Uses [**Tailwind CSS**](https://tailwindcss.com/) for rapid styling.
 
+### 🐰 Uses BunnyCDN
+
+- The project is hosted on [**BunnyCDN**](https://bunnycdn.com/) and uses [**EdgeScripts**](https://github.com/BunnyWay/actions/tree/main/deploy-script) to control the site's behavior.
+
+
 ---
 
 ## 🚀 Quick Start
