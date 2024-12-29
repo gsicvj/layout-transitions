@@ -75,3 +75,8 @@ jobs:
           upload: "true"
           remove: "false"
           purgePullZone: "true"
+      - name: Deploy Script to Bunny Edge
+        uses: BunnyWay/actions/deploy-script@main
+        with:
+          script_id: 17306
+          file: "script.ts"
